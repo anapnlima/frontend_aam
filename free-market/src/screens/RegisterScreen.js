@@ -41,13 +41,13 @@ const RegisterScreen = ({ navigation }) => {
         name,
         description,
         price
-     }, {
-       headers: {
+    }, {
+      headers: {
 
-       }
-     });
-     console.log(response.data);
-    if (response.data === 'sucess') {
+      }
+    });
+    console.log(response.data);
+    if (response.data === 'success') {
       navigation.navigate('Search');
     }
   };
